@@ -8,9 +8,6 @@
 import Foundation
 import UIKit
 
-
-typealias TabbarTabs = (todoVC: UIViewController, alarmVC: UIViewController)
-
 class TabbarVC: UITabBarController {
     
     init(tabs: TabbarTabs) {

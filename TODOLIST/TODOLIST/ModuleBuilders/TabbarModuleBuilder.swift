@@ -7,15 +7,10 @@
 
 import UIKit
 
-protocol TabbarModuleBuilderProtocol {
-    static func build(subModules: TabbarTabs) -> UITabBarController
-}
-
 class TabbarModuleBuilder: TabbarModuleBuilderProtocol {
     
-    static func build(subModules: TabbarTabs) -> UITabBarController {
-        let tabs = TabbarRouter.tabs(subModules: subModules)
-        let tabbarViewController = TabbarVC(tabs: tabs)
+    static func build() -> UITabBarController {
+        let tabbarViewController = TabbarRouter.start()
         return tabbarViewController
     }
     

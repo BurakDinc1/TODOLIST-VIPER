@@ -45,6 +45,12 @@
 		CEAAD4AE28EDAAC900D96A75 /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4AD28EDAAC900D96A75 /* NavigationBuilder.swift */; };
 		CEAAD4AF28EDAAC900D96A75 /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4AD28EDAAC900D96A75 /* NavigationBuilder.swift */; };
 		CEAAD4B028EDAAC900D96A75 /* NavigationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4AD28EDAAC900D96A75 /* NavigationBuilder.swift */; };
+		CEAAD4C328EDC09100D96A75 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C228EDC09100D96A75 /* Protocols.swift */; };
+		CEAAD4C428EDC09100D96A75 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C228EDC09100D96A75 /* Protocols.swift */; };
+		CEAAD4C528EDC09100D96A75 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C228EDC09100D96A75 /* Protocols.swift */; };
+		CEAAD4C728EDC10500D96A75 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */; };
+		CEAAD4C828EDC10500D96A75 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */; };
+		CEAAD4C928EDC10500D96A75 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,6 +100,8 @@
 		CEAAD4A528ED97D000D96A75 /* AlarmVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmVC.swift; sourceTree = "<group>"; };
 		CEAAD4A928ED983400D96A75 /* AlarmModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModuleBuilder.swift; sourceTree = "<group>"; };
 		CEAAD4AD28EDAAC900D96A75 /* NavigationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBuilder.swift; sourceTree = "<group>"; };
+		CEAAD4C228EDC09100D96A75 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
 		CEF5201A7F7154858C3F6CD6 /* Pods_TODOLISTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TODOLISTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDFE613CDF799C812D560D1 /* Pods-TODOLIST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOLIST.release.xcconfig"; path = "Target Support Files/Pods-TODOLIST/Pods-TODOLIST.release.xcconfig"; sourceTree = "<group>"; };
 		E8C12347A6AB5016E5AEDA17 /* Pods-TODOLISTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOLISTTests.debug.xcconfig"; path = "Target Support Files/Pods-TODOLISTTests/Pods-TODOLISTTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -263,6 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				CEAAD48F28ED6C0D00D96A75 /* Extensions.swift */,
+				CEAAD4C228EDC09100D96A75 /* Protocols.swift */,
+				CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -541,8 +551,10 @@
 				CEAAD49928ED8F9000D96A75 /* TabbarModuleBuilder.swift in Sources */,
 				CEAAD45028ED5CF000D96A75 /* SceneDelegate.swift in Sources */,
 				CEAAD48B28ED6B5B00D96A75 /* ToDoVC.swift in Sources */,
+				CEAAD4C328EDC09100D96A75 /* Protocols.swift in Sources */,
 				CEAAD4A228ED95A400D96A75 /* TodoModuleBuilder.swift in Sources */,
 				CEAAD4A628ED97D000D96A75 /* AlarmVC.swift in Sources */,
+				CEAAD4C728EDC10500D96A75 /* TypeAliases.swift in Sources */,
 				CEAAD45828ED5CF000D96A75 /* TODOLIST.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -551,9 +563,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAAD4C828EDC10500D96A75 /* TypeAliases.swift in Sources */,
 				CEAAD49F28ED8FD600D96A75 /* TabbarRouter.swift in Sources */,
 				CEAAD4AB28ED983400D96A75 /* AlarmModuleBuilder.swift in Sources */,
 				CEAAD48C28ED6B5B00D96A75 /* ToDoVC.swift in Sources */,
+				CEAAD4C428EDC09100D96A75 /* Protocols.swift in Sources */,
 				CEAAD49128ED6C0D00D96A75 /* Extensions.swift in Sources */,
 				CEAAD4A328ED95A400D96A75 /* TodoModuleBuilder.swift in Sources */,
 				CEAAD49A28ED8F9000D96A75 /* TabbarModuleBuilder.swift in Sources */,
@@ -568,9 +582,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEAAD4C928EDC10500D96A75 /* TypeAliases.swift in Sources */,
 				CEAAD4A028ED8FD600D96A75 /* TabbarRouter.swift in Sources */,
 				CEAAD4AC28ED983400D96A75 /* AlarmModuleBuilder.swift in Sources */,
 				CEAAD48D28ED6B5B00D96A75 /* ToDoVC.swift in Sources */,
+				CEAAD4C528EDC09100D96A75 /* Protocols.swift in Sources */,
 				CEAAD49228ED6C0D00D96A75 /* Extensions.swift in Sources */,
 				CEAAD4A428ED95A400D96A75 /* TodoModuleBuilder.swift in Sources */,
 				CEAAD49B28ED8F9000D96A75 /* TabbarModuleBuilder.swift in Sources */,

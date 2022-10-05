@@ -15,10 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         self.window = UIWindow(windowScene: windowScene)
         
-        let todoVC = NavigationBuilder.build(viewController: ToDoModuleBuilder.build())
-        let alarmVC = NavigationBuilder.build(viewController: AlarmModuleBuilder.build())
-        let subModules = (todoVC: todoVC, alarmVC: alarmVC)
-        let tabbarViewController = TabbarModuleBuilder.build(subModules: subModules)
+        let tabbarViewController = TabbarModuleBuilder.build()
         
         self.window?.rootViewController = tabbarViewController
         self.window?.makeKeyAndVisible()

@@ -9,14 +9,20 @@ import UIKit
 
 class TabbarRouter {
     
-    static func tabs(subModules: TabbarTabs) -> TabbarTabs {
+    static func start() -> UITabBarController {
+        
+        let todoVC = NavigationBuilder.build(viewController: ToDoModuleBuilder.build())
+        let alarmVC = NavigationBuilder.build(viewController: AlarmModuleBuilder.build())
+        
         let todoTabbarItem = UITabBarItem(title: "TODO", image: UIImage(named: "to-do-list"), tag: 1)
         let alarmTabbarItem = UITabBarItem(title: "Alarms", image: UIImage(named: "alarm-clock"), tag: 2)
         
-        subModules.todoVC.tabBarItem = todoTabbarItem
-        subModules.alarmVC.tabBarItem = alarmTabbarItem
+        todoVC.tabBarItem = todoTabbarItem
+        alarmVC.tabBarItem = alarmTabbarItem
         
-        return (todoVC: subModules.todoVC, alarmVC: subModules.alarmVC)
+        let tabbarTabs = (todoVC: todoVC, alarmVC: alarmVC)
+        let tabbarVC = TabbarVC(tabs: tabbarTabs)
+        return tabbarVC
     }
     
 }

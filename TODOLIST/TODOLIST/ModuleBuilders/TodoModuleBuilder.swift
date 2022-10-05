@@ -7,10 +7,6 @@
 
 import UIKit
 
-protocol ModuleBuilderProtocol {
-    static func build() -> UIViewController
-}
-
 class ToDoModuleBuilder: ModuleBuilderProtocol {
     
     static func build() -> UIViewController {
