@@ -42,6 +42,9 @@
                             <constraint firstItem="kMR-0B-QJx" firstAttribute="leading" secondItem="kLK-Te-5lN" secondAttribute="leading" id="pgB-lo-Jjb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="todoTableView" destination="AAw-F4-bkR" id="hqq-xm-hNr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oUF-Wj-Y7z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,6 +64,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Axc-vi-MI9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1131" y="-82"/>
+        </scene>
+        <!--To Do Detail View-->
+        <scene sceneID="aE6-Lx-bGL">
+            <objects>
+                <viewController storyboardIdentifier="ToDoDetailVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T77-FE-Ch6" customClass="ToDoDetailView" customModule="TODOLIST" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RbO-eU-dF7">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="iKK-En-WxD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsD-s7-L4w" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1968" y="-82"/>
         </scene>
     </scenes>
     <resources>

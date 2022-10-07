@@ -51,6 +51,36 @@
 		CEAAD4C728EDC10500D96A75 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */; };
 		CEAAD4C828EDC10500D96A75 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */; };
 		CEAAD4C928EDC10500D96A75 /* TypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */; };
+		CEF5962428EEBE7D00CFEBCF /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962328EEBE7D00CFEBCF /* CoreDataService.swift */; };
+		CEF5962528EEBE7D00CFEBCF /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962328EEBE7D00CFEBCF /* CoreDataService.swift */; };
+		CEF5962628EEBE7D00CFEBCF /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962328EEBE7D00CFEBCF /* CoreDataService.swift */; };
+		CEF5962828EEBF0E00CFEBCF /* ToDoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962728EEBF0E00CFEBCF /* ToDoEntity.swift */; };
+		CEF5962928EEBF0E00CFEBCF /* ToDoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962728EEBF0E00CFEBCF /* ToDoEntity.swift */; };
+		CEF5962A28EEBF0E00CFEBCF /* ToDoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962728EEBF0E00CFEBCF /* ToDoEntity.swift */; };
+		CEF5962C28EEC29400CFEBCF /* ToDoContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962B28EEC29400CFEBCF /* ToDoContractor.swift */; };
+		CEF5962D28EEC29400CFEBCF /* ToDoContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962B28EEC29400CFEBCF /* ToDoContractor.swift */; };
+		CEF5962E28EEC29400CFEBCF /* ToDoContractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962B28EEC29400CFEBCF /* ToDoContractor.swift */; };
+		CEF5963028EEC3E400CFEBCF /* ToDoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962F28EEC3E400CFEBCF /* ToDoInteractor.swift */; };
+		CEF5963128EEC3E400CFEBCF /* ToDoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962F28EEC3E400CFEBCF /* ToDoInteractor.swift */; };
+		CEF5963228EEC3E400CFEBCF /* ToDoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5962F28EEC3E400CFEBCF /* ToDoInteractor.swift */; };
+		CEF5963428EEC59A00CFEBCF /* ToDoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963328EEC59A00CFEBCF /* ToDoRouter.swift */; };
+		CEF5963528EEC59A00CFEBCF /* ToDoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963328EEC59A00CFEBCF /* ToDoRouter.swift */; };
+		CEF5963628EEC59A00CFEBCF /* ToDoRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963328EEC59A00CFEBCF /* ToDoRouter.swift */; };
+		CEF5963828EEC7B500CFEBCF /* ToDoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963728EEC7B500CFEBCF /* ToDoPresenter.swift */; };
+		CEF5963928EEC7B500CFEBCF /* ToDoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963728EEC7B500CFEBCF /* ToDoPresenter.swift */; };
+		CEF5963A28EEC7B500CFEBCF /* ToDoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963728EEC7B500CFEBCF /* ToDoPresenter.swift */; };
+		CEF5963E28EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963C28EF0A3A00CFEBCF /* ToDoTableViewCell.swift */; };
+		CEF5963F28EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963C28EF0A3A00CFEBCF /* ToDoTableViewCell.swift */; };
+		CEF5964028EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5963C28EF0A3A00CFEBCF /* ToDoTableViewCell.swift */; };
+		CEF5964128EF0A3A00CFEBCF /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF5963D28EF0A3A00CFEBCF /* ToDoTableViewCell.xib */; };
+		CEF5964228EF0A3A00CFEBCF /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF5963D28EF0A3A00CFEBCF /* ToDoTableViewCell.xib */; };
+		CEF5964328EF0A3A00CFEBCF /* ToDoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEF5963D28EF0A3A00CFEBCF /* ToDoTableViewCell.xib */; };
+		CEF5964528EF152200CFEBCF /* ToDoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964428EF152200CFEBCF /* ToDoDetailVC.swift */; };
+		CEF5964628EF152200CFEBCF /* ToDoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964428EF152200CFEBCF /* ToDoDetailVC.swift */; };
+		CEF5964728EF152200CFEBCF /* ToDoDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964428EF152200CFEBCF /* ToDoDetailVC.swift */; };
+		CEF5964928EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */; };
+		CEF5964A28EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */; };
+		CEF5964B28EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +133,16 @@
 		CEAAD4C228EDC09100D96A75 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		CEAAD4C628EDC10500D96A75 /* TypeAliases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeAliases.swift; sourceTree = "<group>"; };
 		CEF5201A7F7154858C3F6CD6 /* Pods_TODOLISTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TODOLISTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEF5962328EEBE7D00CFEBCF /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		CEF5962728EEBF0E00CFEBCF /* ToDoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoEntity.swift; sourceTree = "<group>"; };
+		CEF5962B28EEC29400CFEBCF /* ToDoContractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoContractor.swift; sourceTree = "<group>"; };
+		CEF5962F28EEC3E400CFEBCF /* ToDoInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInteractor.swift; sourceTree = "<group>"; };
+		CEF5963328EEC59A00CFEBCF /* ToDoRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoRouter.swift; sourceTree = "<group>"; };
+		CEF5963728EEC7B500CFEBCF /* ToDoPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoPresenter.swift; sourceTree = "<group>"; };
+		CEF5963C28EF0A3A00CFEBCF /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
+		CEF5963D28EF0A3A00CFEBCF /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
+		CEF5964428EF152200CFEBCF /* ToDoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailVC.swift; sourceTree = "<group>"; };
+		CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailModuleBuilder.swift; sourceTree = "<group>"; };
 		DFDFE613CDF799C812D560D1 /* Pods-TODOLIST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOLIST.release.xcconfig"; path = "Target Support Files/Pods-TODOLIST/Pods-TODOLIST.release.xcconfig"; sourceTree = "<group>"; };
 		E8C12347A6AB5016E5AEDA17 /* Pods-TODOLISTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOLISTTests.debug.xcconfig"; path = "Target Support Files/Pods-TODOLISTTests/Pods-TODOLISTTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,10 +227,15 @@
 			children = (
 				CEAAD48128ED5D6300D96A75 /* AppDelegates */,
 				CEAAD48028ED5D4D00D96A75 /* Storyboards */,
-				CEAAD48328ED5D8300D96A75 /* ViewControllers */,
 				CEAAD49728ED8F7700D96A75 /* ModuleBuilders */,
-				CEAAD49C28ED8FC400D96A75 /* Routers */,
+				CEF5962228EEBE5100CFEBCF /* NetworkService */,
+				CEAAD48328ED5D8300D96A75 /* ViewControllers */,
+				CEF5963B28EF0A0600CFEBCF /* Cells */,
+				CEF5962128EEBE1300CFEBCF /* Contractors */,
+				CEF5961F28EEB3E800CFEBCF /* Interactors */,
 				CEAAD4B128EDAD2F00D96A75 /* Presenters */,
+				CEF5962028EEB45B00CFEBCF /* Entities */,
+				CEAAD49C28ED8FC400D96A75 /* Routers */,
 				CEAAD48428ED5D8A00D96A75 /* Resources */,
 				CEAAD48E28ED6BFE00D96A75 /* Helper */,
 				CEAAD48528ED5DA200D96A75 /* Database */,
@@ -247,6 +292,7 @@
 				CEAAD48A28ED6B5A00D96A75 /* ToDoVC.swift */,
 				CEAAD49328ED78F800D96A75 /* TabbarVC.swift */,
 				CEAAD4A528ED97D000D96A75 /* AlarmVC.swift */,
+				CEF5964428EF152200CFEBCF /* ToDoDetailVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -284,6 +330,7 @@
 				CEAAD4A128ED95A400D96A75 /* TodoModuleBuilder.swift */,
 				CEAAD4A928ED983400D96A75 /* AlarmModuleBuilder.swift */,
 				CEAAD4AD28EDAAC900D96A75 /* NavigationBuilder.swift */,
+				CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */,
 			);
 			path = ModuleBuilders;
 			sourceTree = "<group>";
@@ -292,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				CEAAD49D28ED8FD600D96A75 /* TabbarRouter.swift */,
+				CEF5963328EEC59A00CFEBCF /* ToDoRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -299,8 +347,50 @@
 		CEAAD4B128EDAD2F00D96A75 /* Presenters */ = {
 			isa = PBXGroup;
 			children = (
+				CEF5963728EEC7B500CFEBCF /* ToDoPresenter.swift */,
 			);
 			path = Presenters;
+			sourceTree = "<group>";
+		};
+		CEF5961F28EEB3E800CFEBCF /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5962F28EEC3E400CFEBCF /* ToDoInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		CEF5962028EEB45B00CFEBCF /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5962728EEBF0E00CFEBCF /* ToDoEntity.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		CEF5962128EEBE1300CFEBCF /* Contractors */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5962B28EEC29400CFEBCF /* ToDoContractor.swift */,
+			);
+			path = Contractors;
+			sourceTree = "<group>";
+		};
+		CEF5962228EEBE5100CFEBCF /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5962328EEBE7D00CFEBCF /* CoreDataService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		CEF5963B28EF0A0600CFEBCF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CEF5963C28EF0A3A00CFEBCF /* ToDoTableViewCell.swift */,
+				CEF5963D28EF0A3A00CFEBCF /* ToDoTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,6 +505,7 @@
 				CEAAD45D28ED5CF200D96A75 /* LaunchScreen.storyboard in Resources */,
 				CEAAD45A28ED5CF200D96A75 /* Assets.xcassets in Resources */,
 				CEAAD45528ED5CF000D96A75 /* Main.storyboard in Resources */,
+				CEF5964128EF0A3A00CFEBCF /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +513,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF5964228EF0A3A00CFEBCF /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +521,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF5964328EF0A3A00CFEBCF /* ToDoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -542,19 +635,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF5963E28EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */,
 				CEAAD49028ED6C0D00D96A75 /* Extensions.swift in Sources */,
 				CEAAD44E28ED5CF000D96A75 /* AppDelegate.swift in Sources */,
+				CEF5964528EF152200CFEBCF /* ToDoDetailVC.swift in Sources */,
 				CEAAD4AA28ED983400D96A75 /* AlarmModuleBuilder.swift in Sources */,
 				CEAAD49E28ED8FD600D96A75 /* TabbarRouter.swift in Sources */,
 				CEAAD49428ED78F800D96A75 /* TabbarVC.swift in Sources */,
+				CEF5964928EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */,
+				CEF5962C28EEC29400CFEBCF /* ToDoContractor.swift in Sources */,
+				CEF5963428EEC59A00CFEBCF /* ToDoRouter.swift in Sources */,
 				CEAAD4AE28EDAAC900D96A75 /* NavigationBuilder.swift in Sources */,
 				CEAAD49928ED8F9000D96A75 /* TabbarModuleBuilder.swift in Sources */,
+				CEF5962828EEBF0E00CFEBCF /* ToDoEntity.swift in Sources */,
+				CEF5962428EEBE7D00CFEBCF /* CoreDataService.swift in Sources */,
 				CEAAD45028ED5CF000D96A75 /* SceneDelegate.swift in Sources */,
 				CEAAD48B28ED6B5B00D96A75 /* ToDoVC.swift in Sources */,
 				CEAAD4C328EDC09100D96A75 /* Protocols.swift in Sources */,
 				CEAAD4A228ED95A400D96A75 /* TodoModuleBuilder.swift in Sources */,
 				CEAAD4A628ED97D000D96A75 /* AlarmVC.swift in Sources */,
+				CEF5963828EEC7B500CFEBCF /* ToDoPresenter.swift in Sources */,
 				CEAAD4C728EDC10500D96A75 /* TypeAliases.swift in Sources */,
+				CEF5963028EEC3E400CFEBCF /* ToDoInteractor.swift in Sources */,
 				CEAAD45828ED5CF000D96A75 /* TODOLIST.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,18 +665,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF5963128EEC3E400CFEBCF /* ToDoInteractor.swift in Sources */,
 				CEAAD4C828EDC10500D96A75 /* TypeAliases.swift in Sources */,
+				CEF5962528EEBE7D00CFEBCF /* CoreDataService.swift in Sources */,
 				CEAAD49F28ED8FD600D96A75 /* TabbarRouter.swift in Sources */,
+				CEF5963928EEC7B500CFEBCF /* ToDoPresenter.swift in Sources */,
 				CEAAD4AB28ED983400D96A75 /* AlarmModuleBuilder.swift in Sources */,
+				CEF5962D28EEC29400CFEBCF /* ToDoContractor.swift in Sources */,
 				CEAAD48C28ED6B5B00D96A75 /* ToDoVC.swift in Sources */,
 				CEAAD4C428EDC09100D96A75 /* Protocols.swift in Sources */,
 				CEAAD49128ED6C0D00D96A75 /* Extensions.swift in Sources */,
+				CEF5962928EEBF0E00CFEBCF /* ToDoEntity.swift in Sources */,
 				CEAAD4A328ED95A400D96A75 /* TodoModuleBuilder.swift in Sources */,
+				CEF5963F28EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */,
 				CEAAD49A28ED8F9000D96A75 /* TabbarModuleBuilder.swift in Sources */,
 				CEAAD49528ED78F800D96A75 /* TabbarVC.swift in Sources */,
+				CEF5964628EF152200CFEBCF /* ToDoDetailVC.swift in Sources */,
 				CEAAD4A728ED97D000D96A75 /* AlarmVC.swift in Sources */,
+				CEF5963528EEC59A00CFEBCF /* ToDoRouter.swift in Sources */,
 				CEAAD46828ED5CF200D96A75 /* TODOLISTTests.swift in Sources */,
 				CEAAD4AF28EDAAC900D96A75 /* NavigationBuilder.swift in Sources */,
+				CEF5964A28EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -582,18 +693,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF5963228EEC3E400CFEBCF /* ToDoInteractor.swift in Sources */,
 				CEAAD4C928EDC10500D96A75 /* TypeAliases.swift in Sources */,
+				CEF5962628EEBE7D00CFEBCF /* CoreDataService.swift in Sources */,
 				CEAAD4A028ED8FD600D96A75 /* TabbarRouter.swift in Sources */,
+				CEF5963A28EEC7B500CFEBCF /* ToDoPresenter.swift in Sources */,
 				CEAAD4AC28ED983400D96A75 /* AlarmModuleBuilder.swift in Sources */,
+				CEF5962E28EEC29400CFEBCF /* ToDoContractor.swift in Sources */,
 				CEAAD48D28ED6B5B00D96A75 /* ToDoVC.swift in Sources */,
 				CEAAD4C528EDC09100D96A75 /* Protocols.swift in Sources */,
 				CEAAD49228ED6C0D00D96A75 /* Extensions.swift in Sources */,
+				CEF5962A28EEBF0E00CFEBCF /* ToDoEntity.swift in Sources */,
 				CEAAD4A428ED95A400D96A75 /* TodoModuleBuilder.swift in Sources */,
+				CEF5964028EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */,
 				CEAAD49B28ED8F9000D96A75 /* TabbarModuleBuilder.swift in Sources */,
 				CEAAD49628ED78F800D96A75 /* TabbarVC.swift in Sources */,
+				CEF5964728EF152200CFEBCF /* ToDoDetailVC.swift in Sources */,
 				CEAAD4A828ED97D000D96A75 /* AlarmVC.swift in Sources */,
+				CEF5963628EEC59A00CFEBCF /* ToDoRouter.swift in Sources */,
 				CEAAD47228ED5CF200D96A75 /* TODOLISTUITests.swift in Sources */,
 				CEAAD4B028EDAAC900D96A75 /* NavigationBuilder.swift in Sources */,
+				CEF5964B28EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

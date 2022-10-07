@@ -13,3 +13,7 @@ protocol TabbarModuleBuilderProtocol {
 protocol ModuleBuilderProtocol {
     static func build() -> UIViewController
 }
+
+protocol ToDoDetailModuleBuilderProtocol {
+    static func build(entity todo: ToDoEntity) -> UIViewController
+}
