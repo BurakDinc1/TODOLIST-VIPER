@@ -29,8 +29,10 @@ protocol ToDoPresenterOutputs {
 protocol ToDoPresenterInputs {
     func viewDidLoad()
     func didSelectToDo(entity todo: ToDoEntity)
+    func didTappedAddNewTodoButton(ref: UINavigationController?)
 }
 
 protocol ToDoRouterInput {
     func navigateToToDoEntity(entity: ToDoEntity)
+    func navigateToAddNewTodo(ref: UINavigationController?)
 }

@@ -13,13 +13,17 @@ class ToDoModuleBuilder: ModuleBuilderProtocol {
         let storyBoard = UIStoryboard.init(name: "Main", bundle: nil)
         let viewController = storyBoard.instantiateViewController(withIdentifier: "ToDoVC") as! ToDoVC
         viewController.title = "TODO's"
+        
         let interactor = ToDoInteractor()
+        let presenter = ToDoPresenter()
         let router = ToDoRouter(todoNavigationController: viewController.navigationController)
-        let presenter = ToDoPresenter(interactorInput: interactor,
-                                      routerInput: router)
-        interactor.delegate = presenter
+        
+        presenter.routerInput = router
+        presenter.interactorInput = interactor
         presenter.presenterOutput = viewController
+        interactor.delegate = presenter
         viewController.presenter = presenter
+        
         return viewController
     }
     

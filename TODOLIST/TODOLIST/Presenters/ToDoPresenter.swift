@@ -10,20 +10,15 @@ import UIKit
 
 class ToDoPresenter: ToDoPresenterInputs, ToDoInteractorOutputs {
     
-    let interactorInput: ToDoInteractorInputs
+    var interactorInput: ToDoInteractorInputs?
     var presenterOutput: ToDoPresenterOutputs?
-    let routerInput: ToDoRouterInput
-    
-    init(interactorInput: ToDoInteractorInputs, routerInput: ToDoRouterInput) {
-        self.interactorInput = interactorInput
-        self.routerInput = routerInput
-    }
+    var routerInput: ToDoRouterInput?
     
     func viewDidLoad() {
         print("Burak--> Presenter ViewDidLoad")
         self.presenterOutput?.setupTableViewCell()
         self.presenterOutput?.indicatorView(animate: true)
-        self.interactorInput.fetchToDos()
+        self.interactorInput?.fetchToDos()
     }
     
     func onSuccessFetchTodo(todoList: [ToDoEntity]) {
@@ -34,7 +29,12 @@ class ToDoPresenter: ToDoPresenterInputs, ToDoInteractorOutputs {
     
     func didSelectToDo(entity todo: ToDoEntity) {
         print("Burak--> Presenter didSelectToDo")
-        self.routerInput.navigateToToDoEntity(entity: todo)
+        self.routerInput?.navigateToToDoEntity(entity: todo)
+    }
+    
+    func didTappedAddNewTodoButton(ref: UINavigationController?) {
+        print("Burak--> Presenter didTappedAddNewTodoButton")
+        self.routerInput?.navigateToAddNewTodo(ref: ref)
     }
     
 }

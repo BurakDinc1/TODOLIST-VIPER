@@ -17,6 +17,7 @@ class ToDoVC: UIViewController, ToDoPresenterOutputs {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.setDesign()
         self.presenter?.viewDidLoad()
     }
     
@@ -37,6 +38,16 @@ class ToDoVC: UIViewController, ToDoPresenterOutputs {
         } else {
             print("Yüklendi !")
         }
+    }
+    
+    private func setDesign() {
+        let addButton = UIBarButtonItem(title: "New ToDo", style: .plain, target: self, action: #selector(self.addTodoButtonTapped(sender:)))
+        self.navigationItem.rightBarButtonItem = addButton
+        self.navigationItem.rightBarButtonItem?.image = UIImage(named: "plus")
+    }
+    
+    @objc private func addTodoButtonTapped(sender: UIBarButtonItem) {
+        self.presenter?.didTappedAddNewTodoButton(ref: self.navigationController ?? nil)
     }
     
 }

@@ -42,6 +42,7 @@ class CoreDataService {
                     }
                     promise(.success(todoList))
                 } catch {
+                    print("Burak--> Data bulunamadı.")
                     promise(.success([]))
                 }
                 

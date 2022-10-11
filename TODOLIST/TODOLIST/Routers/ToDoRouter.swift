@@ -11,7 +11,13 @@ import UIKit
 class ToDoRouter: ToDoRouterInput {
     
     func navigateToToDoEntity(entity: ToDoEntity) {
-        print("Burak yönlenecek")
+        print("Burak--> yönlenecek")
+    }
+    
+    func navigateToAddNewTodo(ref: UINavigationController?) {
+        let alarmVC = AlarmModuleBuilder.build()
+        ref?.pushViewController(alarmVC, animated: true)
+        print("Burak--> Yönlenecek")
     }
     
     private(set) weak var todoNavigationController: UINavigationController!
