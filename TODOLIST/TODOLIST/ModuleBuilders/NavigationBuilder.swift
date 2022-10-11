@@ -15,9 +15,21 @@ protocol NavigationBuilderProtocol {
 class NavigationBuilder: NavigationBuilderProtocol {
     
     static func build(viewController: UIViewController) -> UINavigationController {
-        var navigationController = UINavigationController(nibName: nil, bundle: nil)
+        let navigationController = UINavigationController(nibName: nil, bundle: nil)
+        navigationController.navigationBar.prefersLargeTitles = true
+        navigationController.navigationBar.tintColor = .white
+        navigationController.navigationBar.scrollEdgeAppearance = self.setNavBar()
         navigationController.viewControllers.append(viewController)
         return navigationController
+    }
+    
+    static func setNavBar() -> UINavigationBarAppearance {
+        let navBarAppearance = UINavigationBarAppearance()
+        navBarAppearance.configureWithOpaqueBackground()
+        navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+        navBarAppearance.backgroundColor = .purple
+        return navBarAppearance
     }
     
 }

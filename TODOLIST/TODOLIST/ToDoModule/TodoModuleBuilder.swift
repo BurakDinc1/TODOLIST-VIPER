@@ -16,7 +16,7 @@ class ToDoModuleBuilder: ModuleBuilderProtocol {
         
         let interactor = ToDoInteractor()
         let presenter = ToDoPresenter()
-        let router = ToDoRouter(todoNavigationController: viewController.navigationController)
+        let router = ToDoRouter()
         
         presenter.routerInput = router
         presenter.interactorInput = interactor

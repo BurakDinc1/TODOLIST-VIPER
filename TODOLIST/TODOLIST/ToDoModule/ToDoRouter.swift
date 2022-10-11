@@ -20,15 +20,10 @@ class ToDoRouter: ToDoRouterInput {
         print("Burak--> Yönlenecek")
     }
     
-    private(set) weak var todoNavigationController: UINavigationController!
-    
-    init(todoNavigationController: UINavigationController!) {
-        self.todoNavigationController = todoNavigationController
-    }
-    
-    func navigateToDetail(todoEntity: ToDoEntity) {
+    func navigateToDetail(ref: UINavigationController?,
+                          todoEntity: ToDoEntity) {
         let detailVC = ToDoDetailModuleBuilder.build(entity: todoEntity) // Detail Vc Sayfasi build metodunda entity alacak !
-        self.todoNavigationController.pushViewController(detailVC, animated: true)
+        ref?.pushViewController(detailVC, animated: true)
     }
     
 }
