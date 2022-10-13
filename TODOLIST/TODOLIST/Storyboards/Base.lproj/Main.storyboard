@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLU-i3-YdG">
-                                <rect key="frame" x="0.0" y="47" width="390" height="763"/>
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="WwQ-Xs-FbQ">
                                         <rect key="frame" x="0.0" y="0.0" width="390" height="1500"/>
@@ -77,14 +77,13 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="kLK-Te-5lN"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="KLU-i3-YdG" firstAttribute="trailing" secondItem="kLK-Te-5lN" secondAttribute="trailing" id="4m3-Mq-fUc"/>
-                            <constraint firstItem="KLU-i3-YdG" firstAttribute="top" secondItem="kLK-Te-5lN" secondAttribute="top" id="DEp-tD-xXW"/>
-                            <constraint firstItem="KLU-i3-YdG" firstAttribute="bottom" secondItem="kLK-Te-5lN" secondAttribute="bottom" id="IIr-31-Fik"/>
+                            <constraint firstItem="KLU-i3-YdG" firstAttribute="trailing" secondItem="pKx-0a-tTz" secondAttribute="trailing" id="4m3-Mq-fUc"/>
+                            <constraint firstItem="KLU-i3-YdG" firstAttribute="top" secondItem="pKx-0a-tTz" secondAttribute="top" id="DEp-tD-xXW"/>
+                            <constraint firstItem="KLU-i3-YdG" firstAttribute="bottom" secondItem="pKx-0a-tTz" secondAttribute="bottom" id="IIr-31-Fik"/>
                             <constraint firstItem="WwQ-Xs-FbQ" firstAttribute="width" secondItem="pKx-0a-tTz" secondAttribute="width" id="Ijx-Zq-aca"/>
-                            <constraint firstItem="KLU-i3-YdG" firstAttribute="leading" secondItem="kLK-Te-5lN" secondAttribute="leading" id="Zrm-zi-Pur"/>
+                            <constraint firstItem="KLU-i3-YdG" firstAttribute="leading" secondItem="pKx-0a-tTz" secondAttribute="leading" id="Zrm-zi-Pur"/>
                         </constraints>
                     </view>
                     <connections>
