@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: DidFinishLaunchWithOptions
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        if let tab = window?.rootViewController as? UITabBarController {
+            tab.tabBar.backgroundImage = UIImage(named: "material_background_1")
+        }
         return true
     }
 
