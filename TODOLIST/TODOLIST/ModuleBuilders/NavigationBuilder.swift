@@ -19,6 +19,7 @@ class NavigationBuilder: NavigationBuilderProtocol {
         navigationController.navigationBar.prefersLargeTitles = true
         navigationController.navigationBar.tintColor = .white
         navigationController.navigationBar.scrollEdgeAppearance = self.setNavBar()
+        navigationController.navigationBar.standardAppearance = self.setNavBar()
         navigationController.viewControllers.append(viewController)
         return navigationController
     }
@@ -28,7 +29,8 @@ class NavigationBuilder: NavigationBuilderProtocol {
         navBarAppearance.configureWithOpaqueBackground()
         navBarAppearance.titleTextAttributes = [.foregroundColor: UIColor.white]
         navBarAppearance.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
-        navBarAppearance.backgroundColor = .purple
+        navBarAppearance.backgroundColor = UIColor(named: "appMainColor")
+        navBarAppearance.shadowColor = .clear
         return navBarAppearance
     }
     

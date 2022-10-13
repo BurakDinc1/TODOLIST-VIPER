@@ -296,7 +296,6 @@
 				CEAAD48028ED5D4D00D96A75 /* Storyboards */,
 				CEAAD49728ED8F7700D96A75 /* ModuleBuilders */,
 				CEF5962228EEBE5100CFEBCF /* NetworkService */,
-				CEF5963B28EF0A0600CFEBCF /* Cells */,
 				CEAAD48428ED5D8A00D96A75 /* Resources */,
 				CEAAD48E28ED6BFE00D96A75 /* Helper */,
 				CEAAD48528ED5DA200D96A75 /* Database */,
@@ -387,13 +386,6 @@
 				CEF5962328EEBE7D00CFEBCF /* CoreDataService.swift */,
 			);
 			path = NetworkService;
-			sourceTree = "<group>";
-		};
-		CEF5963B28EF0A0600CFEBCF /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

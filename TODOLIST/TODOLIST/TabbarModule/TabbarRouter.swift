@@ -14,8 +14,8 @@ class TabbarRouter {
         let todoVC = NavigationBuilder.build(viewController: ToDoModuleBuilder.build())
         let alarmVC = NavigationBuilder.build(viewController: AlarmModuleBuilder.build())
         
-        let todoTabbarItem = UITabBarItem(title: "TODO", image: UIImage(named: "to-do-list"), tag: 1)
-        let alarmTabbarItem = UITabBarItem(title: "Alarms", image: UIImage(named: "alarm-clock"), tag: 2)
+        let todoTabbarItem = UITabBarItem(title: "TODO", image: UIImage(named: "to-do-list")?.withRenderingMode(.alwaysTemplate), tag: 1)
+        let alarmTabbarItem = UITabBarItem(title: "Alarms", image: UIImage(named: "alarm-clock")?.withRenderingMode(.alwaysTemplate), tag: 2)
         
         todoVC.tabBarItem = todoTabbarItem
         alarmVC.tabBarItem = alarmTabbarItem
