@@ -20,6 +20,7 @@ class ToDoVC: UIViewController, ToDoPresenterOutputs {
     @IBOutlet weak var topImageView: UIImageView!
     @IBOutlet weak var topChildView: UIView!
     @IBOutlet weak var todoTableView: UITableView!
+    @IBOutlet weak var blurView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -58,7 +59,7 @@ class ToDoVC: UIViewController, ToDoPresenterOutputs {
                                      color: UIColor.clear.cgColor,
                                      cornerRadius: 40,
                                      corners: [.layerMinXMaxYCorner, .layerMaxXMaxYCorner])
-        self.topStackView.backgroundColor = .white.withAlphaComponent(0.1)
+        self.blurView.backgroundColor = .white.withAlphaComponent(0.1)
         self.topStackView.addBorder(borderWidth: 0,
                                     color: UIColor.clear.cgColor,
                                     cornerRadius: 40)
@@ -68,6 +69,9 @@ class ToDoVC: UIViewController, ToDoPresenterOutputs {
         self.topImageView.addBorder(borderWidth: 0,
                                     color: UIColor.clear.cgColor,
                                     cornerRadius: 40)
+        self.blurView.addBorder(borderWidth: 0,
+                                color: UIColor.clear.cgColor,
+                                cornerRadius: 40)
         self.topChildView.shadow(cornerRadius: 40,
                                  shadowRadius: 4,
                                  shadowColor: .white,
