@@ -7,4 +7,4 @@
 
 import UIKit
 
-typealias TabbarTabs = (todoVC: UIViewController, alarmVC: UIViewController)
+typealias TabbarTabs = (todoVC: UIViewController, createVC: UIViewController, alarmVC: UIViewController)
