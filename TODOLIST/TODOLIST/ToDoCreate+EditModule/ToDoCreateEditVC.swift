@@ -8,6 +8,8 @@
 import UIKit
 
 class ToDoCreateEditVC: UIViewController {
+    
+    var todo: ToDoEntity?
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -82,6 +82,7 @@
 		CEF5964928EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */; };
 		CEF5964A28EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */; };
 		CEF5964B28EF158400CFEBCF /* ToDoDetailModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */; };
+		CEFADF7F290039240028FFE0 /* ToDoCreateEditModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFADF7E290039240028FFE0 /* ToDoCreateEditModuleBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -145,6 +146,7 @@
 		CEF5963D28EF0A3A00CFEBCF /* ToDoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoTableViewCell.xib; sourceTree = "<group>"; };
 		CEF5964428EF152200CFEBCF /* ToDoDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailVC.swift; sourceTree = "<group>"; };
 		CEF5964828EF158400CFEBCF /* ToDoDetailModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoDetailModuleBuilder.swift; sourceTree = "<group>"; };
+		CEFADF7E290039240028FFE0 /* ToDoCreateEditModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCreateEditModuleBuilder.swift; sourceTree = "<group>"; };
 		DFDFE613CDF799C812D560D1 /* Pods-TODOLIST.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOLIST.release.xcconfig"; path = "Target Support Files/Pods-TODOLIST/Pods-TODOLIST.release.xcconfig"; sourceTree = "<group>"; };
 		E8C12347A6AB5016E5AEDA17 /* Pods-TODOLISTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TODOLISTTests.debug.xcconfig"; path = "Target Support Files/Pods-TODOLISTTests/Pods-TODOLISTTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,6 +260,7 @@
 			isa = PBXGroup;
 			children = (
 				CE1FD55928F582ED00DB36FE /* ToDoCreateEditVC.swift */,
+				CEFADF7E290039240028FFE0 /* ToDoCreateEditModuleBuilder.swift */,
 			);
 			path = "ToDoCreate+EditModule";
 			sourceTree = "<group>";
@@ -631,6 +634,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEF5963E28EF0A3A00CFEBCF /* ToDoTableViewCell.swift in Sources */,
+				CEFADF7F290039240028FFE0 /* ToDoCreateEditModuleBuilder.swift in Sources */,
 				CEAAD49028ED6C0D00D96A75 /* Extensions.swift in Sources */,
 				CEAAD44E28ED5CF000D96A75 /* AppDelegate.swift in Sources */,
 				CEF5964528EF152200CFEBCF /* ToDoDetailVC.swift in Sources */,
@@ -878,6 +882,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -908,6 +913,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

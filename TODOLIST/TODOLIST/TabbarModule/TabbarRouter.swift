@@ -12,7 +12,7 @@ class TabbarRouter {
     static func start() -> UITabBarController {
         
         let todoVC = NavigationBuilder.build(viewController: ToDoModuleBuilder.build())
-        let createVC = NavigationBuilder.build(viewController: AlarmModuleBuilder.build())
+        let createVC = NavigationBuilder.build(viewController: ToDoCreateEditModuleBuilder.build(entity: nil))
         let alarmVC = NavigationBuilder.build(viewController: AlarmModuleBuilder.build())
         
         let todoTabbarItem = UITabBarItem(title: "", image: UIImage(named: "to-do-list")?.withRenderingMode(.alwaysTemplate), tag: 0)

@@ -17,3 +17,7 @@ protocol ModuleBuilderProtocol {
 protocol ToDoDetailModuleBuilderProtocol {
     static func build(entity todo: ToDoEntity) -> UIViewController
 }
+
+protocol ToDoCreateEditModuleBuilderProtocol {
+    static func build(entity todo: ToDoEntity?) -> UIViewController
+}
